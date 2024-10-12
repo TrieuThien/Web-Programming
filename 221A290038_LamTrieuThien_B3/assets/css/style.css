@@ -1,0 +1,312 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.text-center {
+    text-align: center;
+}
+
+
+/* Bài 1 */
+#Bai1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Bai1 img {
+    max-width: 150px;
+    align-self: center;
+}
+
+#Bai1 .link {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+
+#Bai1 .link .link__product {
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #fff;
+    padding: 24px;
+    background-color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 28px;
+    display: flex;
+}
+
+#Bai1 .link .link__product:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#Bai1 .link .icon1 {
+    color: blue;
+}
+
+
+#Bai1 .link .icon2 {
+    color: violet;
+}
+
+
+#Bai1 .link .icon1,
+#Bai1 .link .icon2 {
+    font-size: 28px;
+    align-self: center;
+    margin-left: 8px;
+}
+
+
+/* Bài 2 */
+#Bai2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#Bai2 .Bai2__content {
+    max-width: 600px;
+}
+
+#Bai2 .Bai2__content .tag-link {
+    min-height: 100px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+#Bai2 .Bai2__content .tag-link a {
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 60px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #82E500;
+}
+
+/* Bài 3 */
+#Bai3 {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+#Bai3 h1 {
+    font-size: 32px;
+}
+
+#Bai3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Bai3 p,
+#Bai3 ul li {
+    line-height: 24px;
+}
+
+#Bai3 ul li {
+    list-style: none;
+}
+
+#Bai3 .read-more {
+    padding: 12px 24px;
+    margin-top: 24px;
+    background-color: #00BDD2;
+    text-decoration: none;
+    color: #fff;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+#Bai3 .read-more:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#Bai4 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Bai4 .Bai4__content {
+    width: 600px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F0F0F0;
+}
+
+#Bai4 .Bai4__content .icon {
+    align-self: center;
+    background: url('../images/mail_icon.svg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #00BDD2;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+#Bai4 .Bai4__content .action-behavior {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Bai4 #guest-email {
+    width: 256px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    padding: 16px 8px;
+}
+
+#Bai4 #submit-send {
+    max-width: 30%;
+    margin-top: 12px;
+    align-self: center;
+    border: none;
+    background-color: blue;
+    border-radius: 5px; 
+    padding: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Bài 5 */
+#Bai5 {
+    margin-top: 60px;
+}
+
+#Bai5 .Bai5__content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner_coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#Bai5 .Bai5__content h1 {
+    margin-top: 60px; 
+}
+
+#Bai5 .Bai5__content h1,
+#Bai5 .Bai5__content p {
+    color: #fff;
+}
+
+#Bai5 #regist {
+    background-color: #ED3D27;
+    border: none;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#Bai5 #regist:hover {
+    opacity: 0.8;
+}
+
+/* Bài 6 */
+#Bai6 {
+    margin-top: 60px;
+}
+#Bai6 .Bai6__content {
+    background: url('../images/dark-night-starts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Bai6 .Bai6__content .icon1 {
+    background: url('../images/graduated-icon.png');
+}
+
+#Bai6 .Bai6__content .icon2 {
+    background: url('../images/job-seeker.png');
+
+}
+
+#Bai6 .Bai6__content .icon3 {
+    background: url('../images/idea.png');
+
+}
+
+#Bai6 .Bai6__content .icon4 {
+    background: url('../images/web.png');
+
+}
+
+#Bai6 .Bai6__content .icon1,
+#Bai6 .Bai6__content .icon2,
+#Bai6 .Bai6__content .icon3,
+#Bai6 .Bai6__content .icon4 {
+    height: 50px;
+    margin-top: 40px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#Bai6 .Bai6__content h1,
+#Bai6 .Bai6__content p {
+    text-align: center;
+    color: #fff;
+}
+
+#Bai6 .Bai6__content p {
+    margin-bottom: 40px;
+}
+
+
+/* Bài 7 */
+#Bai7 {
+    margin-top: 60px;
+}
+
+#Bai7 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Bai7 .container .container__left {
+    
+}
+
+#Bai7 .container .container__right {
+    display: flex;
+}
+
+#Bai7 .container .container__right .links,
+#Bai7 .container .container__right .socials,
+#Bai7 .container .container__right .contact   {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+
+#Bai7 .container .container__right .links a,
+#Bai7 .container .container__right .socials a,
+#Bai7 .container .container__right .contacts a {
+    text-decoration: none;
+    color: #898E90;
+    margin-top: 8px;
+} 
+
