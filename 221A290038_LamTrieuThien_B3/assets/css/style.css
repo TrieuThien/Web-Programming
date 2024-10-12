@@ -285,9 +285,6 @@ body {
     justify-content: space-between;
 }
 
-#Bai7 .container .container__left {
-    
-}
 
 #Bai7 .container .container__right {
     display: flex;
@@ -310,3 +307,8 @@ body {
     margin-top: 8px;
 } 
 
+#Bai7 .container .container__right .links a:hover,
+#Bai7 .container .container__right .socials a:hover,
+#Bai7 .container .container__right .contacts a:hover {
+    text-decoration: underline;
+}
