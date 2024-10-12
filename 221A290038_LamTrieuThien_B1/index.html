@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+    <title>Triệu Thiên</title>
+</head>
+<body>
+    <div id="navbar">
+        <div class="left_navbar slide-in-right">
+            <h2 class="logo">Portfolio</h2>
+        </div>
+
+        <div class="right_navbar slide-in-right none_display_700">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>   
+
+    <div id="home">
+        <div class="left_section slide-in-right">
+            <h2>Hello, It's Me</h2>
+            <p style="font-size: 40px; font-weight: 800;">Triệu Thiên</p>
+            <h2>And I'm a <span style="color: #01EEFE">Frontend Developer</span></h2>
+            <p>I am a computer science student majoring in software technology with a passion for computers and programming. I enjoy creating projects such as websites and applications, and am always looking for opportunities to learn and develop my skills.
+            </p>
+            <div class="social-icon slide-in-right">
+                <a href="https://web.facebook.com/trieuthien.official"><i class="ti-facebook icon-animation"></i></a>
+                <a href="https://github.com/TrieuThien"><i class="ti-github icon-animation none_display_mobile"></i></a>
+                <a href="https://www.youtube.com/@codeforlife5978"><i class="ti-youtube icon-animation none_display_mobile"></i></a>
+                <a href="https://trieuthien.github.io/"><i class="ti-link icon-animation"></i></a>
+            </div>
+            <button class="download-btn slide-in-right" onclick="downloadFile()">Download CV</button>
+        </div>
+
+        <div class="right_section slide-in-right">
+            <img src="./assets/image/about_my_picture.png" alt="It's me!" width="80%" style="border-radius: 20px;">
+        </div>
+    </div>
+
+    <div id="about">
+
+    </div>
+    <div id="skills">
+
+    </div>
+    <div id="contact">
+
+    </div>
+    
+</body>
+
+<script>
+    function downloadFile() {
+        const link = document.createElement('a');
+        link.href = "/assets/files/Developer_CV_topdev.vn.pdf";
+        link.download = 'Lam_Trieu_Thien_Developer_CV_topdev.vn.pdf';
+        link.click();
+    }
+</script>
+</html>

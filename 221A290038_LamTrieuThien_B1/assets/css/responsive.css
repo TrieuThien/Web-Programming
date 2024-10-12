@@ -1,0 +1,31 @@
+@media (max-width: 1025px) {
+    .none_display_table {
+        display: none;
+    }
+    #home {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #home .left_section {
+        max-width: 100%;
+    }
+
+    #home .right_section {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+    .none_display_700 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .none_display_mobile {
+        display: none;
+    }
+}
+
