@@ -1,12 +1,30 @@
 body {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
+
+section:not(:first-child) {
+    margin-top: 100px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-justify {
     text-align: justify;
+}
+
+.white-text {
+    color: white;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
 }
 
 
@@ -68,7 +86,6 @@ body {
 
 /* Bài 2 */
 #Bai2 {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -96,7 +113,6 @@ body {
 
 /* Bài 3 */
 #Bai3 {
-    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
@@ -135,8 +151,8 @@ body {
     opacity: 0.7;
 }
 
+/* Bài 4 */
 #Bai4 {
-    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -149,6 +165,10 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #F0F0F0;
+}
+
+#Bai4 .Bai4__content form {
+    margin-bottom: 40px;
 }
 
 #Bai4 .Bai4__content .icon {
@@ -192,10 +212,6 @@ body {
 }
 
 /* Bài 5 */
-#Bai5 {
-    margin-top: 60px;
-}
-
 #Bai5 .Bai5__content {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner_coffee.jpg');
     background-repeat: no-repeat;
@@ -228,9 +244,6 @@ body {
 }
 
 /* Bài 6 */
-#Bai6 {
-    margin-top: 60px;
-}
 #Bai6 .Bai6__content {
     background: url('../images/dark-night-starts.jpg');
     background-size: cover;
@@ -280,10 +293,6 @@ body {
 
 
 /* Bài 7 */
-#Bai7 {
-    margin-top: 60px;
-}
-
 #Bai7 .container {
     display: flex;
     justify-content: space-between;
@@ -319,10 +328,6 @@ body {
 
 /* Bài 8 */
 #Bai8 .header {
-    margin-top: 60px;
-}
-
-#Bai8 .header {
     display: flex;
     justify-content: space-around;
 }
@@ -353,10 +358,6 @@ body {
 }
 
 /* Bài 9 */
-#Bai9 {
-    margin-top: 60px;
-}
-
 #Bai9 .container {
     display: flex;
     max-width: 1000px;
@@ -384,10 +385,6 @@ body {
 }
 
 /* Bài 10 */
-#Bai10 {
-    margin-top: 60px;
-}
-
 #Bai10 .content1,
 #Bai10 .content2 {
     display: flex;
@@ -423,3 +420,279 @@ body {
     margin-right: 24px;
 }
 
+/* Bài 11 */
+#Bai11 .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Bai11 .form {
+    background-color: #F0F0F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#Bai11 .form-action {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Bai11 .form-action .send-comment__left,
+#Bai11 .form-action .send-comment__right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#Bai11 .form-action .send-comment__left input,
+#Bai11 .form-action .send-comment__left select,
+#Bai11 .form-action .send-comment__right input {
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+    border: none;
+    padding: 12px;
+    margin-top: 16px;
+}
+
+#Bai11 .form-action .send-comment__left select {
+    color: #75758B;
+}
+
+#Bai11 .form .below {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+#Bai11 .form .below textarea {
+    width: 95%;
+    border: none;
+    padding: 8px 8px 40px 8px;  
+    align-self: center;
+    box-sizing: border-box;
+}
+
+#Bai11 .form .below button {
+    background-color: #0097F7;
+    align-self: start;
+    margin-left: 2.5%;
+    border: none;
+    padding: 12px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+#Bai11 .form .below button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+/* Bài 12 */
+#Bai12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4A9DA1;
+    color: white;
+}
+#Bai12 .footer {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#Bai12 .footer .footer__left,
+#Bai12 .footer .footer__links,
+#Bai12 .footer .footer__socials {
+    flex: 1;
+    margin: 0 80px;
+}
+
+#Bai12 .footer .footer__socials .icon {
+    display: flex;
+    flex-direction: row;
+}
+
+#Bai12 .footer .footer__socials .icon a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+}
+
+#Bai12 .footer .footer__socials .icon .facebook {
+    background-color: #0097F7;
+}
+
+#Bai12 .footer .footer__socials .icon .google{
+    background-color: #F9392F;
+}
+
+#Bai12 .footer .footer__socials .icon .twitter {
+    background-color: #233C52;
+}
+
+
+#Bai12 .footer .footer__socials .icon .linkedin {
+    background-color: #0097DD;
+}
+
+/* Bài 13 */
+#Bai13 {
+    background-color: #1E1E1E;
+    color: #75758B;
+}
+
+#Bai13 .footer {
+    padding: 20px;
+    display: flex;
+}
+
+#Bai13 .footer .footer__left,
+#Bai13 .footer .footer__links,
+#Bai13 .footer .footer__socials,
+#Bai13 .footer .footer__contacts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 28px;
+}
+
+#Bai13 .footer .footer__left {
+    flex: 1.5;
+}
+
+#Bai13 .footer .footer__left img {
+    width: 60px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+#Bai13 .footer .footer__left h4,
+#Bai13 .footer .footer__left p {
+    line-height: 24px;
+    margin: 0;
+}
+
+#Bai13 .footer .footer__left p {
+    text-align: justify;
+}
+
+#Bai13 .footer .footer__links a,
+#Bai13 .footer .footer__socials a,
+#Bai13 .footer .footer__contacts a {
+    text-decoration: none;
+    color: #75758B;
+    margin-top: 28px;
+}
+
+/* Bài 14 */
+#Bai14 .laptops {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Bai14 .laptops .laptop__card img {
+    width: 350px;
+    height: 300px;
+}
+
+#Bai14 .laptops .laptop__card .description p {
+    margin: 0;
+    line-height: 28px;
+}
+
+#Bai14 .laptops .laptop__card button{
+    margin-top: 16px;
+    padding: 12px 16px;
+    background-color: white;
+    border-width: 1px;
+}
+
+/* Bài 15 */
+#Bai15 .contact-form .contact-form__title {
+    color: blue;
+    text-transform: uppercase;
+    border-bottom: 3px solid red ;
+}
+
+#Bai15 .contact-form .container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+#Bai15 .contact-form .container__info {
+    flex: 1;
+}
+
+#Bai15 .contact-form .container__info a {
+    text-decoration: none;
+    color: black;
+}
+
+#Bai15 .contact-form .container__info a:hover {
+    text-decoration: underline;
+}
+
+#Bai15 .contact-form .container__info  i {
+    margin-right: 12px;
+    font-size: 24px;
+}
+
+#Bai15 .contact-form .container__form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#Bai15 .contact-form .container__form .form-input {
+    margin-top: 12px;
+    padding: 8px 12px;
+}
+
+#Bai15 .contact-form .container__form textarea {
+    padding-bottom: 80px !important;
+}
+
+#Bai15 .contact-form .container__form button {
+    margin-top: 16px;
+    max-width: 150px;
+    padding: 12px;
+    background-color: #4A9DA1;
+    border: none;
+    color: white;
+}
+
+#Bai15 .contact-form .container__form button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+/* Bài 16 */
+#Bai16 .container .container__item {
+    background-color: #FAFAFA;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    margin: 16px 40px;
+}
+
+#Bai16 .container .container__item p {
+    padding: 12px;
+    margin: 0;
+}
+/* Bài 17 */
+#Bai17 .footer .below-footer img {
+    width: 50px;
+    height: 100%;
+}

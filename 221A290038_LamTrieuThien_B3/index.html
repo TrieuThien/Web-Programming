@@ -14,6 +14,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=apparel" />
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css" />
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -83,7 +84,7 @@
     <section id="Bai4">
         <div class="Bai4__content">
             <div class="icon"></div>
-            <form action="get-main">
+            <form action="get-mail">
                 <h1 class="text-center">Gửi lời mời tham gia sự kiện</h1>
                 <p class="text-center">Hãy nhập email người mà bạn muốn gửi lời mời.</p>
                 <div class="action-behavior">
@@ -238,6 +239,379 @@
                 <p>Phát triển các sản phẩm đạt độ chất lượng với độ bền cao có thể sử dụng trong 20 năm</p>
             </div>
         </div>
+    </section>
+
+    <section id="Bai11">
+        <div class="container">
+            <div class="header">
+                <div class="header__title">
+                    <h1 class="text-center text-uppercase" style="color: blueviolet">Đóng góp ý kiến về sản phẩm</h1>
+                </div>
+                <div class="header__subtitle">
+                    <p class="text-center">Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng Việt có dấu.</p>
+                    <p class="text-center">Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thức thời gian và địa điểm <span style="font-style: italic;">(nếu có)</span></p>
+                </div>
+            </div>
+            <div class="form">
+                <form action="send-comment">
+                    <div class="form-action">
+                        <div class="send-comment__left">
+                            <input type="text" name="user-name" id="user-name" placeholder="Họ và tên">
+                            <input type="tel" name="user-phone" id="user-phone" placeholder="Số điện thoại">
+                            <select name="kind-of-customer" id="kind-of-customer">
+                                <option value="" disabled selected hidden>Chọn loại khách hàng</option>
+                                <option value="vip">VIP</option>
+                                <option value="platinum">Platinum</option>
+                                <option value="diamon">Diamon</option>
+                            </select>
+                        </div>
+                        <div class="send-comment__right">
+                            <input type="text" name="id-card" id="id-card" placeholder="Mã thẻ">
+                            <input type="email" name="user-mail" id="user-mail" placeholder="E-mail">
+                            <input type="text" name="id-bill" id="id-bill" placeholder="Mã hóa đơn">
+                        </div>    
+                    </div>
+                    <div class="below">
+                        <textarea type="text" name="user-comment" id="user-comment" placeholder="Nhập chi tiết mô tả"></textarea> <br>
+                        <button type="button">Gửi góp ý <i class="ti-share-alt"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai12">
+        <div class="footer">
+            <div class="footer__left">
+                <h3 class="text-uppercase">Khoa Khoa học và Kỹ thuật Thông tin</h3>
+                <p>Đào tạo hai ngành Công nghệ thông tin (Đại học và Sau Đại học) và Khoa học Dữ liệu (Đại học)</p>
+            </div>
+            <div class="footer__links">
+                <h3 class="text-uppercase">Liên kết</h3>
+                <ul>
+                    <li>Website Trường</li>
+                    <li>Bộ môn Di động và CN Web</li>
+                    <li>Bộ môn Khoa học dữ liệu</li>
+                </ul>
+            </div>
+            <div class="footer__socials">
+                <h3 class="text-uppercase">Mạng xã hội</h3>
+                <div class="icon">
+                    <a href="https://web.facebook.com" class="facebook"><i class="ti-facebook"></i></a>
+                    <a href="https://google.com" class="google"><i class="ti-google"></i></a>
+                    <a href="https://twitter.com" class="twitter"><i class="ti-twitter"></i></a>
+                    <a href="https://linkedin.com" class="linkedin"><i class="ti-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="text-center"><span style="color: red">&#169</span> Bản quyền thuộc Khoa Khoa học và Kỹ thuật Thông tin</p>
+        </div>
+    </section>
+
+    <section id="Bai13">
+        <div class="footer">
+            <div class="footer__left">
+                <img src="./assets/images/UIT_logo.webp" alt="UIT logo">
+                <h4 class="text-uppercase">Sứ mạng</h4>
+                <p>Trường Đại học Công nghệ Thông tin là một trung tâm đào tạo đại học cung cấp nguồn nhân lực chất lượng cao, nhằm đáp ứng nhu cầu của thị trường lao động và phục vụ cộng đồng.</p>
+                <h4 class="text-uppercase">Tầm nhìn</h4>
+                <p>Trường Đại học Công nghệ Thông tin trở thành trường đại học uy tín về công nghệ thông tin - truyền thông và các lĩnh vực liên quan trong khu vực Châu Á<div class=""></div></p>
+            </div>
+            <div class="footer__links">
+                <h4 class="text-uppercase white-text">Liên kết</h4>
+                <a href="#" class="mt-16">Tuyển sinh</a>
+                <a href="#">Tuyển dụng GV</a>
+                <a href="#">Tra cứu VB</a>
+                <a href="#">Lịch giao ban</a>
+                <a href="#">Thanh tra</a>
+                <a href="#">Góp ý</a>
+            </div>
+            <div class="footer__socials">
+                <h4 class="text-uppercase white-text">Mạng xã hội</h4>
+                <a href="https:/facebook.com" class="mt-16"><i class="ti-facebook"></i> 60.978 Linkes</a>
+                <a href="https://twitter.com"><i class="ti-twitter"></i> 9.860 Followers</a>
+                <a href="https://youtube.com"><i class="ti-youtube"></i> 8.159 Subscrise</a>
+            </div>
+            <div class="footer__contacts">
+                <h4 class="text-uppercase white-text">Liên hệ</h4>
+                <a href="mailto:info@uit.edu.vn" class="mt-16">info@uit.edu.vn</a>
+                <a href="https://www.uit.edu.vn">https://www.uit.edu.vn</a>
+                <p>Kq 6, P. Linh Trung, Tp. Thủ Đức, Tp. Hồ Chí Minh</p>
+                <a href="tel:+840976263355">(+84) 0976263355</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai14">
+        <div class="container">
+            <div class="container__title">
+                <h1 class="text-uppercase text-center">Laptop dành cho học trực tuyến</h1>
+                <p class="text-center">Do ảnh hưởng của dịch COVID-19, trong năm học mới này, nhiều học sinh tại một số tỉnh, thành phố như Hà Nội, TP.HCM sẽ phải tiến hành học tập qua hình thức online (trực tuyến), dẫn đén nhu cầu tìm mua máy tính xách tay (laptop)
+                    để học online tăng cao so với mọi năm. Các mẫu laptop hỗ trợ tốt trong học trực tuyến có thể tham khảo:
+                </p>
+            </div>
+            <div class="laptops">
+                <div class="laptop__card">
+                    <img src="./assets/images/surfacelaptop3135-gold-01.jpg" alt="SURFACE LATOP 3 13.5">
+                    <h2>SURFACE LATOP 3 13.5</h2>
+                    <p class="author-info">@Ngọc Hoàng  09 Sep 2021 (Đã xem: 1024)</p>
+                    <div class="description">
+                        <p>Thông tin sản phẩm và bảo hành</p>
+                        <p>Tình trạng: Sản phẩm mới 100%, nguyên seal</p>
+                        <p>Bảo hành: 12 tháng, 1 đổi 1 theo chính sách của Microsoft</p>
+                        <p>Phụ kiện: Máy, sạc, full box</p>
+                    </div>
+                    <button type="button">Đọc tiếp...</button>
+                </div>
+                <div class="laptop__card">
+                    <img src="./assets/images/thinkpad-x1.jpg" alt="Laptop Samsung X180 Barbie">
+                    <h2>Laptop Samsung X180 Barbie</h2>
+                    <p class="author-info">@Minh Anh  08 Sep 2021 (Đã xem: 979)</p>
+                    <div class="description">
+                        <p>Thông tin sản phẩm và bảo hành</p>
+                        <p>Tình trạng: Sản phẩm mới 100%, nguyên seal</p>
+                        <p>Bảo hành: 12 tháng, 1 đổi 1 theo chính sách của Samsung</p>
+                        <p>Phụ kiện: Máy, sạc, full box</p>
+                    </div>
+                    <button type="button">Đọc tiếp...</button>
+                </div>
+                <div class="laptop__card">
+                    <img src="./assets/images/laptop-samsung.webp" alt="ThinkPad X1 Carbon Gen 9">
+                    <h2>ThinkPad X1 Carbon Gen 9</h2>
+                    <p class="author-info">@Ngọc Ánh  06 Sep 2021 (Đã xem: 530)</p>
+                    <div class="description">
+                        <p>Thông tin sản phẩm và bảo hành</p>
+                        <p>Tình trạng: Sản phẩm mới 100%, nguyên seal</p>
+                        <p>Bảo hành: 12 tháng, 1 đổi 1 theo chính sách của Lenovo</p>
+                        <p>Phụ kiện: Máy, sạc, full box</p>
+                    </div>
+                    <button type="button">Đọc tiếp...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai15">
+        <div class="contact-form">
+            <div class="contact-form__title"><h1 style="font-weight: 400;">Liên hệ</h1>
+            </div>
+            <div class="container">
+                <div class="container__info">
+                    <h3>Thông tin</h3>
+                    <p><i class="ti-location-pin"></i>Kp 6. P. Linh Trung, Tp. Thủ Đức, Tp. HCM</p>
+                    <p><a href="mailto:info@uit.edu.vn"> <i class="ti-email"></i>info@uit.edu.vn</a> </p>
+                    <p><a href="tel:+842837252002"><i class="ti-mobile"></i>(+84) 28 372 520002</a></p>
+                </div>
+                <div class="container__form">
+                    <h3 style="font-weight: 500; color: purple">Hãy liên lạc với chúng tôi bất cứ khi nào!!!</h3>
+                    <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Họ và tên">
+                    <input class="form-input" type="text" name="user-mail" id="user-mail" placeholder="Địa chỉ E-mail">
+                    <input class="form-input" type="text" name="post-title" id="post-title" placeholder="Tiêu đề bài viết">
+                    <textarea class="form-input" name="post-content" id="post-content" placeholder="Nội dung cần gửi"></textarea>
+                    <button type="button">GỬI TIN NHẮN <i class="ti-check-box"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai16">
+        <div class="container">
+            <h1 style="color: blue">Đánh giá</h1>
+            <div class="container__item">
+                <p>@ <span style="color: red; font-weight: 600;">Yến Nhi</span></p>
+                <p class="description">21:56 Thứ 5 ngày 09/09/2021</p>
+                <p>Đã mua, đã sử dụng, máy chạt êm, cầm chắc tay hơn cái trước mình dùng. shop tư vấn nhiệt tình, mùa dịch mà giao hàng ship thì quá ok luôn. minh đặt lỡ nhắn dc nhà mẹ đẻ, đến khi gọi nhận hành mình báo địa chỉ khác, anh ship vẫn vui vẻ đồng ý... nói chung là tuyệt.</p>
+            </div>
+            <div class="container__item">
+                <p>@ <span style="color: red; font-weight: 600;">Phạm Triết</span></p>
+                <p class="description">06:39 Thứ 5 ngày 09/09/2021</p>
+                <p>Tông đơ rất đẹp, nhưng bộ kéo cắt tỉa thì như đồ chơi trẻ em 😂😂😂, đóng goi cẩn thận, giao hàng nhiệt tình. cảm ơn TIKI</p>
+            </div>
+            <div class="container__item">
+                <p>@ <span style="color: red; font-weight: 600;">Chí Phèo</span></p>
+                <p class="description">12:26 Thứ 3 ngày 07/09/2021</p>
+                <p>Tông đơ nhìn chắc chắn, lưỡi dao sắt bén, cầm vừa tay, thao tác dễ, kéo tặng kèm cũng dễ sử dụng. Sẽ dùng thực tế để trải nghiệm thêm.</p>
+            </div>
+            <div class="container__item">
+                <p>@ <span style="color: red; font-weight: 600;">Tony Phùng</span></p>
+                <p class="description">10:45 Thứ 2 ngày 06/09/2021</p>
+                <p>Rất hài lòng ( giao hàng nhanh hàng đúng như trên hình, cắt thử rất OK Thank's Shop</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai17">
+        <div class="footer">
+            <div class="above-footer">
+                <div class="above-footer__regist">
+                    <p>Nhập e-mail để không bỏ lỡ các thông báo</p>
+                    <form action="get-mail">
+                        <input type="email" name="user-mail" id="user-mail" placeholder="Nhập email">
+                        <input type="submit" value="OK">
+                    </form>
+                </div>
+
+                <div class="above-footer__links">
+                    <div class="links">
+                        <a href="#">Liên hệ công việc</a>
+                        <a href="#">Gặp BCN Khoa</a>
+                        <a href="#">Lịch tiếp SV</a>
+                        <a href="#">Lịch họp Khoa</a>
+                        <a href="#">Ý kiến đóng góp</a>
+                    </div>
+                    <div class="links">
+                        <a href="#">Kiểm tra chứng chỉ</a>
+                        <a href="#">Xác thực văn bằng</a>
+                        <a href="#">Lịch hậu kiểm</a>
+                        <a href="#">Lịch thanh tra</a>
+                        <a href="#">Thanh tra giảng dạy</a>
+                    </div>
+                    <div class="links">
+                        <a href="#">Đăng nhập</a>
+                        <a href="#">Đăng ký</a>
+                        <a href="#">Xác thực TKCT</a>
+                        <a href="#">Đăng ký VPS</a>
+                        <a href="#">Đăng ký HP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="below-footer">
+                <img src="./assets/images/UIT_logo.webp" alt="UIT logo">
+                <p>Bản quyền thuộc về Khoa KH-KTTT</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai18">
+        <div class="container">
+            <div class="container__card">
+                <div class="image"><img src="./assets/images/royalbaby-20g-4-zoom.jpg" alt="Xe đạp trẻ em RoyalBaby Jenny RB20G-4 20 inch Trắng"></div>
+                <div class="description">
+                    <h3>Xe đạp trẻ em RoyalBaby Jenny RB20G-4 20 inch Trắng</h3>
+                    <p>Chiếc xe đạp dòng Jenny của nhà Royal Baby dành cho các bé ở độ tuổi 6 - 8 tuổi với chiều cao từ 120cm - 130cm. Xe được lấy ý tưởng từ nhân vật nàng Tiên Cá, chiếc xe họa nên nét đáng yêu, phù hợp với các bé gái xinh xắn.</p>
+                </div>
+            </div>
+            <div class="container__card">
+                <div class="image"><img src="./assets/images/Fornix-M3-Black-Blue-850.jpg" alt="Xe đạp địa hình MTB Fornix C26 26 inch Đen Đỏ"></div>
+                <div class="description">
+                    <h3>Xe đạp địa hình MTB Fornix C26 26 inch Đen Đỏ</h3>
+                    <p>Xe đạp địa hình MTB Fornix C26 26 inch mang nét thể thao cá tính và nổi bật bởi sự phối hợp hài hòa giữa sắc đen - đỏ - vàng, nét năng động trong thiết kế này
+                        rất thích hợp với các bạn trẻ hiện đại. Xe phù hợp để bạn dùng khi leo núi, đi phượt hay là chinh phục, khám phá những cung đường mới.
+                    </p>
+                </div>
+            </div>
+            <div class="container__card">
+                <div class="image"><img src="./assets/images/fornix-panda-16-inch-xanh-duong.jpg" alt="Xe đạp trẻ em Fornix Panda 16 inch Tím"></div>
+                <div class="description">
+                    <h3>Xe đạp trẻ em Fornix Panda 16 inch Tím</h3>
+                    <p>Xe đạp trẻ em Fornix Panda 16 inch mang phong cách đáng yêu cùng thiết kế mới mẻ, hiện đại và màu tím xanh năng động nhưng không kém phần đáng yêu, đây là một lựa chọn hoàn hảo giúp bé của bạn phát triển cả về thể chất cũng như tinh thần.</p>
+                </div>
+            </div>
+            <div class="container__card">
+                <div class="image"><img src="./assets/images/mtb-fascino-w600-26-inch-den-do.jpg" alt="Xe đạp địa hình MTB Fascino FS-04 20 inch Đỏ"></div>
+                <div class="description">
+                    <h3>Xe đạp địa hình MTB Fascino FS-04 20 inch Đỏ</h3>
+                    <p>Xe đạp trẻ em MTB Fascino FS-04 là dòng xe cao cấp được sản xuất theo tiêu chuẩn Châu Âu. Xe được phối màu đỏ đen nổi bật, gây ấn tượng với thiết kế thể thao cá tính, chắc chắn đây sẽ là người bạn đồng hành tuyệt vời cho các bé.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Bai19">
+        <div class="container">
+            <div class="container__title">
+                <h1 class="text-center" style="color: blue">VIN Digibank</h1>
+                <h2>Log in</h2>
+            </div>
+            <form action="login">   
+                <label for="user-mail-19">E-mail</label>
+                <input type="email" name="user-mail-19" id="user-mail-19">
+                <label for="password-19">Password</label>
+                <input type="password" name="user-password-19" id="user-password-19">
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+    </section>
+
+    <section id="Bai20">
+        <header>
+            <h1 class="text-uppercase">Thiết kế layout đơn giản</h1>
+            <h3>Banner - Header</h3>
+        </header>
+        <div class="navbar">
+            <a href="#">GIỚI THIỆU</a>
+            <a href="#">ĐÀO TẠO ĐẠI HỌC</a>
+            <a href="#">ĐÀO TẠO SAU ĐẠI HỌC</a>
+            <a href="#">NGHIÊN CỨU KHOA HỌC</a>
+            <a href="#">TUYỂN DỤNG</a>
+            <a href="#" class="regist">Đăng ký</a>
+        </div>
+        <div class="left-container">
+            <div class="left-container__postcard">
+                <h1>Triết lý giáo dục của Trường Đại học Công nghệ Thông tin</h1>
+                <p>@Tác giả - Ngày 20/10/2021</p>
+                <div class="image"><p>Chèn ảnh minh họa bài viết</p></div>
+                <p>Trường Đại học Công nghệ Thông tin hướng đến sự phát triển toàn diện của con người, đề cao tính độc lập, sáng tạo và phục vụ cộng đồng. Toàn thể sinh viên, giảng viên và nhân viên của Trường cùng tham gia vào quá trị giáo dục để giúp sinh viên trở thành công dân:</p>
+                <li>Chính trực, trách nhiệm và yêu thương con người.</li>
+                <li>Khao khát khám phá và sáng tạo khoa học công nghệ</li>
+                <li>Có kiến thức, kỹ năng chuyên môn vững vàng, biết hợp tác và chia sẻ.</li>
+                <li>Có khả năng học tập suốt đời để thích ứng với mọi thay đổi.</li>
+                <li>Có hoài bảo, đóng góp tích cực cho sự phát triển của cộng đồng và xã hội.</li>
+            </div>
+            
+            <div class="left-container__postcard">
+                <h1>Tầm nhìn - Sứ mạng</h1>
+                <p>@Tác giả - Ngày 20/10/2021</p>
+                <div class="image"><p>Chèn ảnh minh họa bài viết</p></div>
+                <li>Trường Đại học Công nghệ Thông tin là một trung tâm đào tạo đại học, sau đại học cung cấp nguồn nhân lực chất lượng cao, nhằm đáp ứng nhu cầu và thị trường lao động và phục vụ cộng đồng.</li>
+                <li>Trường Đại học Công nghệ Thông tin là một trung tâm hàng đầu về nghiên cứu khoa học và chuyển giao công nghệ và thông tin - truyền thông và các lĩnh vực liên quan</li>
+            </div>
+
+            <div class="left-container__postcard">
+                <h1>Tiêu đề bài viết</h1>
+                <p>@Tác giả - Ngày 20/10/2021</p>
+                <div class="image"><p>Chèn ảnh minh họa bài viết</p></div>
+                <p>Tóm tắc ngắn gọn về bài viết.</p>
+                <p>Mô tả chi tiết bài viết.</p>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="right-container__items">
+                <h3 class="text-uppercase">Tuyển sinh</h3>
+                <div class="container">
+                    <div class="logo"><p>Logo tuyển sinh</p></div>
+                </div>
+                <p>Công nghệ Thông tin</p>
+                <p>Khoa học Dữ liệu</p>
+            </div>
+            
+            <div class="right-container__items">
+                <h3 class="text-uppercase">Đối tác doanh nghiệp</h3>
+                <div class="container">
+                    <div class="logo"><p>Logo doanh nghiệp</p></div>
+                    <div class="logo"><p>Logo doanh nghiệp</p></div>
+                    <div class="logo"><p>Logo doanh nghiệp</p></div>
+                </div>
+            </div>
+            
+            <div class="right-container__items">
+                <h3 class="text-uppercase">Mạng xã hội</h3>
+                <a href="#">Zalo</a> <br>
+                <a href="#">Facebook</a> <br>
+                <a href="#">Youtube</a>
+            </div>
+            
+            <div class="right-container__items">
+                <h3 class="text-uppercase">Liên hệ</h3>
+                <p>...</p>
+                <p>...</p>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center">Thông tin footer</p>
+        </footer>
     </section>
 </body>
 
