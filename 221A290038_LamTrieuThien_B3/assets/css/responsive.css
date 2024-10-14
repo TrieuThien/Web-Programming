@@ -44,6 +44,22 @@
     .auto-wrap {
         flex: 1 0 33%;
     }
+
+    #Bai20 .container {
+        flex-direction: column;
+    }
+
+    #Bai20 .container .left-container {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #Bai20 .container .right-container {
+        flex: 1;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 530px) {

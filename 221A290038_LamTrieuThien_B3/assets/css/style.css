@@ -872,3 +872,118 @@ section:not(:first-child) {
     align-self: center;
 }
 
+/* Bài 20 */
+#Bai20 {
+    background-color: #FFE0BF;
+    height: auto;
+}
+
+#Bai20 header {
+    color: blue;
+    background-color: white;
+    border: 2px solid red;
+    margin: 0 40px;
+}
+
+#Bai20 .navbar {
+    background-color: #009DDD;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#Bai20 .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 16px;
+    line-height: 40px;
+}
+
+#Bai20 .navbar a:hover {
+    text-decoration: underline;
+}
+
+#Bai20 .navbar .regist {
+    float: right;
+    margin-right: 16px;
+}
+
+#Bai20 .container {
+    display: flex;
+}
+
+#Bai20 .container .left-container {
+    flex: 3;
+    margin-left: 40px;
+    margin-right: 8px;
+}
+
+#Bai20 .container .left-container .left-container__postcard {
+    background-color: white;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+#Bai20 .container .left-container .left-container__postcard h1 {
+    margin: 0;
+}
+
+#Bai20 .container .left-container .left-container__postcard .image {
+    height: 200px;
+    background-color: #A5A5A5;
+    padding: 12px;
+}
+
+#Bai20 .container .left-container .left-container__postcard .image p {
+    margin: 0;
+}
+
+
+#Bai20 .container .left-container .left-container__postcard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Bai20 .container .left-container .left-container__postcard ul li::before {
+    
+    content: "-";
+    padding-right: 8px; 
+}
+#Bai20 .container .right-container {
+    flex: 1;
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+#Bai20 .container .right-container .right-container__items {
+    background-color: white;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+#Bai20 .container .right-container .right-container__items .box {
+    background-color: #ABC3DF;
+    padding: 16px;
+}
+
+#Bai20 .container .right-container .right-container__items .box .logo {
+    border: 2px solid #000;
+    text-align: center;
+}
+
+#Bai20 .container .right-container .right-container__items .box .logo:not(:first-child) {
+    margin-top: 16px;
+}
+
+#Bai20 .container .right-container .right-container__items a {
+    text-decoration: none;
+}
+
+#Bai20 .footer {
+    margin: 0 40px;
+    padding-bottom: 40px;
+}
+
+#Bai20 .footer p {
+    padding: 20px;
+    background-color: white; 
+}
