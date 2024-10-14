@@ -29,7 +29,31 @@
     #Bai14 .laptops {
         flex-wrap: wrap;
     }
+
+    #Bai17 .footer .above-footer {
+        flex-direction: column;
+    }
     
+}
+
+@media (max-width: 930px) {
+    #Bai13 .footer .footer__left {
+        flex: 1 0 90%;
+    }
+
+    .auto-wrap {
+        flex: 1 0 33%;
+    }
+}
+
+@media (max-width: 530px) {
+    #Bai17 .footer .above-footer .above-footer__links {
+        flex-direction: column;
+    }
+
+    #Bai17 .footer .above-footer .above-footer__links .links {
+        margin-top: 32px;
+    }
 }
 
 @media (max-width: 430px) {
@@ -54,3 +78,4 @@
         flex-direction: column;
     }
 }
+

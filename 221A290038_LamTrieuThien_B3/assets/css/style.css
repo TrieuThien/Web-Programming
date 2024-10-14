@@ -19,6 +19,10 @@ section:not(:first-child) {
     text-align: justify;
 }
 
+.text-nowrap {
+    white-space: nowrap;
+}
+
 .white-text {
     color: white;
 }
@@ -553,6 +557,7 @@ section:not(:first-child) {
 #Bai13 .footer {
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #Bai13 .footer .footer__left,
@@ -691,8 +696,179 @@ section:not(:first-child) {
     padding: 12px;
     margin: 0;
 }
+
 /* Bài 17 */
-#Bai17 .footer .below-footer img {
-    width: 50px;
+#Bai17 .footer {
+    background-color: #000;
+    color: #393939;
+}
+
+#Bai17 .footer .above-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#Bai17 .footer #user-mail {
+    background-color: #141414;
+    color: white;
+    border: none;
+    padding: 12px;
+    min-width: 70%;
+}
+
+#Bai17 .footer #submit-button {
+    min-width: 20%;
+    padding: 12px 0;
+    background-color: #00BCD0;
+    border: none;
+    color: white;
+}
+
+#Bai17 .footer #submit-button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+#Bai17 .footer .above-footer__links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Bai17 .footer .above-footer__links .links {
+    display: flex;
+    flex-direction: column;
+}
+
+#Bai17 .footer .above-footer__links a {
+    text-decoration: none;
+    color: #393939;
+    margin: 16px 16px 0 16px;
+    white-space: nowrap;
+}
+
+#Bai17 .footer .above-footer__links a:hover {
+    color: #F0F0F0;
+}
+
+#Bai17 .footer .below-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #141414;
+    padding: 24px 5%;
+    margin-top: 60px;;
+}
+
+#Bai17 .footer .below-footer .below-footer__logo img {
+    width: 60px;
     height: 100%;
 }
+
+#Bai17 .footer .below-footer .below-footer__copyright p {
+    color: #393939;
+}
+
+/* Bài 18 */
+#Bai18 {
+    display: flex;
+    justify-content: center;
+}
+
+#Bai18 .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-self: center;
+    background-color: #F2F3F5;
+}
+
+#Bai18 .container .container__card {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 16px 0 16px;
+}
+
+#Bai18 .container .container__card:not(:first-child) {
+    border: none;
+    border-top: 2px dotted red;
+}
+#Bai18 .container .container__card .image {
+    flex: 2;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+#Bai18 .container .container__card .image img{
+    width: 100%;
+    height: 100%;
+}
+
+#Bai18 .container .container__card .description {
+    flex: 8;
+    line-height: 24px;
+}
+
+/* Bài 19 */
+#Bai19 {
+    background-color: #E6E6FC;
+    display: flex;
+    justify-content: center;
+}
+#Bai19 .container {
+    width: 400px;
+    margin: 32px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#Bai19 .container .container__title {
+    background-color: #FC78F1;
+}
+
+#Bai19 .container .container__title h1 {
+    padding-top: 16px;
+    margin-top: 0;
+}
+
+#Bai19 .container .container__title h2 {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}
+
+#Bai19 .container .container__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    padding-top: 16px;
+    color: #858789;
+}
+
+#Bai19 .container .container__form {
+    background-color: white;
+}
+
+#Bai19 .container .container__form input {
+    border: none;
+    background-color: #F0F0F0;
+    padding: 8px;
+}
+
+#Bai19 .container #submit {
+    margin: 16px 0;
+    background-color: #00E0CD;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    align-self: center;
+}
+

@@ -315,7 +315,7 @@
                 <h4 class="text-uppercase">Tầm nhìn</h4>
                 <p>Trường Đại học Công nghệ Thông tin trở thành trường đại học uy tín về công nghệ thông tin - truyền thông và các lĩnh vực liên quan trong khu vực Châu Á<div class=""></div></p>
             </div>
-            <div class="footer__links">
+            <div class="footer__links auto-wrap text-nowrap">
                 <h4 class="text-uppercase white-text">Liên kết</h4>
                 <a href="#" class="mt-16">Tuyển sinh</a>
                 <a href="#">Tuyển dụng GV</a>
@@ -324,13 +324,13 @@
                 <a href="#">Thanh tra</a>
                 <a href="#">Góp ý</a>
             </div>
-            <div class="footer__socials">
+            <div class="footer__socials auto-wrap text-nowrap">
                 <h4 class="text-uppercase white-text">Mạng xã hội</h4>
                 <a href="https:/facebook.com" class="mt-16"><i class="ti-facebook"></i> 60.978 Linkes</a>
                 <a href="https://twitter.com"><i class="ti-twitter"></i> 9.860 Followers</a>
                 <a href="https://youtube.com"><i class="ti-youtube"></i> 8.159 Subscrise</a>
             </div>
-            <div class="footer__contacts">
+            <div class="footer__contacts auto-wrap">
                 <h4 class="text-uppercase white-text">Liên hệ</h4>
                 <a href="mailto:info@uit.edu.vn" class="mt-16">info@uit.edu.vn</a>
                 <a href="https://www.uit.edu.vn">https://www.uit.edu.vn</a>
@@ -443,9 +443,9 @@
             <div class="above-footer">
                 <div class="above-footer__regist">
                     <p>Nhập e-mail để không bỏ lỡ các thông báo</p>
-                    <form action="get-mail">
-                        <input type="email" name="user-mail" id="user-mail" placeholder="Nhập email">
-                        <input type="submit" value="OK">
+                    <form action="get-mail" class="get-mail">
+                        <input type="email" name="user-mail" id="user-mail" placeholder="Nhập e-mail">
+                        <input type="submit" id="submit-button" value="OK">
                     </form>
                 </div>
 
@@ -474,8 +474,12 @@
                 </div>
             </div>
             <div class="below-footer">
-                <img src="./assets/images/UIT_logo.webp" alt="UIT logo">
-                <p>Bản quyền thuộc về Khoa KH-KTTT</p>
+                <div class="below-footer__logo">
+                    <img src="./assets/images/UIT_logo.webp" alt="UIT logo">
+                </div>
+                <div class="below-footer__copyright">
+                    <p>Bản quyền thuộc về Khoa KH-KTTT</p>
+                </div>
             </div>
         </div>
     </section>
@@ -519,14 +523,14 @@
         <div class="container">
             <div class="container__title">
                 <h1 class="text-center" style="color: blue">VIN Digibank</h1>
-                <h2>Log in</h2>
+                <h2 class="white-text">Log in</h2>
             </div>
-            <form action="login">   
+            <form action="login" class="container__form">   
                 <label for="user-mail-19">E-mail</label>
                 <input type="email" name="user-mail-19" id="user-mail-19">
                 <label for="password-19">Password</label>
                 <input type="password" name="user-password-19" id="user-password-19">
-                <input type="submit" value="Log in">
+                <input type="submit" value="Log in" id="submit">
             </form>
         </div>
     </section>
